@@ -1,0 +1,4 @@
+1.修改对应模型配置文件,例如:configs/deeplabv3/deeplabv3_r50-d8_512x1024_40k_cityscapes_custom_single.py
+2.修改对应的数据集读取文件,例如:configs/_base_/datasets/cityscapes_custom_single.py
+3.修改对应的数据集配置文件,例如:mmseg/datasets/cityscapes_custom.py
+4.修改对应的模型配置文件,例如:configs/_base_/models/deeplabv3_r50-d8_custom.py
